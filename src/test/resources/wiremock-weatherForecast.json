@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/v1/weather?city=Paris"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{ \"temperature\": 25, \"description\": \"sunny\" }"
+  }
+}
